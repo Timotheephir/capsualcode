@@ -1,0 +1,647 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes myBrand {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.myBran {
+    animation-name: myBrand;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    position: relative;
+    display: inline-block;
+}
+
+#bars {
+    position: fixed;
+    display: none;
+    right: 5px;
+    top: 5px;
+}
+
+@keyframes myBrand2 {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+
+    }
+}
+
+.myBran2 {
+    animation-name: myBrand2;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    position: relative;
+    display: inline-block;
+
+
+}
+
+#news {
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+#dis {
+    display: none;
+}
+
+.whoWeAre {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    font-size: 80%;
+    background-color: #00000c;
+}
+
+.whoWeAre1 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 15px;
+    border-left: 5px solid orange;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.container_nav {
+    width: 100%;
+    height: 80px;
+}
+
+.home {
+    border-bottom: 2px solid orange;
+}
+
+.contact1 {
+    border-bottom: 2px solid orange;
+}
+
+.blogSearch {
+    border-radius: 4px;
+    box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.8);
+    width: 50%;
+    height: auto;
+    padding: 6px;
+    position: absolute;
+    transform: translate(50%, -50%);
+}
+
+
+.back_container {
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-image: url("back44.jpg");
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.toTop {
+    background-color: transparent;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.toTop1 {
+    background-color: transparent;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 60px;
+}
+
+.toTop1:hover,
+.toTop:hover {
+    background-color: orange;
+}
+
+.nav_head {
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.container_main {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    padding: 0px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.blog1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 350%;
+    letter-spacing: 8px;
+}
+
+.container_service {
+    height: auto;
+    padding: 20px;
+    width: 100%;
+    background: #00000c;
+}
+
+.container_portifolio {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-image: url("bk,1.jpg");
+    background-size: cover;
+}
+
+.container_work {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #00000c;
+
+}
+
+.container_goals {
+    width: 100%;
+    height: 1000px;
+    padding: 10px;
+    position: relative;
+    background-color: #00000c;
+}
+
+
+.approach {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 500px;
+    padding: 40px;
+    overflow: hidden;
+    position: absolute;
+    left: 340px;
+
+}
+
+.vision {
+    background-color: slateblue;
+    width: 25%;
+    height: 500px;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    left: 656px;
+    top: 150px;
+
+}
+
+.contact {
+    background-color: rgb(6, 6, 26);
+    width: 25%;
+    height: 450px;
+    color: white;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    left: 450px;
+    top: 490px;
+}
+
+
+.maint {
+    padding: 10px;
+}
+
+
+
+p {
+    font-size: 100%;
+}
+
+.box1 {
+    width: 32%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4PX GRAY;
+    padding: 10px;
+    overflow: hidden;
+    border-left: 5px solid orange;
+    background-color: transparent;
+}
+.box1:hover{
+    box-shadow: 8px 8px;
+}
+
+.box2 {
+    width: 45%;
+    overflow: hidden;
+    height: auto;
+    margin: 10px;
+    box-shadow: 1px 1px 4PX GRAY;
+    padding: 10px;
+    border-left: 5px solid orange;
+    border-radius: 10px;
+
+}
+
+.box3 {
+    width: 20%;
+    height: 150px;
+    margin: 10px;
+    background-color: #00000c;
+    border-left: 5px solid orange;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4PX GRAY;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.box4 {
+    width: 90%;
+    text-align: center;
+    padding-left: 60px;
+    height: 300px;
+}
+
+.box5 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4PX GRAY;
+
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    color: WHITE;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: auto;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.footerBox {
+    width: 40%;
+    height: auto;
+    margin-top: 15px;
+    padding: 18px;
+}
+
+.footerBox1 {
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+    padding: 2px;
+}
+
+ul {
+    padding: 10px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 25px;
+    cursor: pointer;
+    padding: 4px;
+    font-size: 70%;
+}
+
+li:hover {
+    border-bottom: 2px solid white;
+    font-size: 72%;
+}
+
+.slogan1 {
+    font-size: 200%;
+    letter-spacing: 10px;
+}
+
+.slogan2 {
+    font-size: 120%;
+    letter-spacing: 5px;
+
+}
+
+button {
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 80%;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: orange;
+    border: none;
+}
+
+form {
+    width: 80%;
+    height: 400px;
+    padding: 20px 40px;
+}
+
+.box_style {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 80%;
+    outline: none;
+
+}
+
+textarea {
+    width: 92%;
+    background: transparent;
+    border-radius: 4px;
+    height: 120px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+h2 {
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+
+.search {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    outline: none;
+    height: 25px;
+    padding: 8px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+#close {
+    font-size: 200%;
+    display: none;
+    color: orange;
+}
+
+@media screen and (max-width :520px) {
+
+    .search {
+        display: none;
+    }
+
+    h2 {
+        font-size: 100%;
+
+    }
+
+    .container_main {
+        width: 100%;
+        height: auto;
+        margin-bottom: 70px;
+        padding: 15px;
+        display: flex;
+
+    }
+
+    .box1 {
+        width: 100%;
+        
+        border-left: 4px solid orange;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    .box2 {
+        width: 96%;
+
+        border: 2px solid black;
+        padding: 5px;
+
+    }
+
+    .box3 {
+        width: 40%;
+    
+        border: 2px solid black;
+    }
+
+    .box4 {
+        width: 100%;
+        padding: 10px;
+    
+        text-align: center;
+    }
+
+    .box5 {
+        width: 100%;
+        
+
+    }
+
+    .slogan1 {
+        font-size: 140%;
+        letter-spacing: 6px;
+    }
+
+    .slogan2 {
+        font-size: 90%;
+        letter-spacing: 5px;
+    }
+
+    .nav_head {
+        display: block;
+        padding: 10px;
+
+    }
+
+    form {
+        width: 80%;
+        height: 400px;
+        padding: 20px 40px;
+        display: none;
+    }
+
+    button {
+        background-color: transparent;
+        padding: 6px;
+        border: 1px solid white;
+        margin-top: 30px;
+        border-radius: 9px;
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 60%;
+    }
+
+    .container_goals {
+        width: 100%;
+        height: 1450px;
+        padding: 10px;
+        position: relative;
+        background-color: #00000c;
+    }
+
+
+    .approach {
+        
+        width: 100%;
+        height: 400px;
+        padding: 50px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .vision {
+        width: 100%;
+        height: 500px;
+        padding: 50px;
+        position: absolute;
+        top: 400px;
+        left: 0px;
+        opacity: 0.8;
+    }
+
+    .contact {
+        
+        width: 100%;
+        height: 450px;
+        padding: 50px;
+        position: absolute;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+        top: 800px;
+    }
+
+    footer {
+        width: 100%;
+        display: display;
+        padding: 10px;
+        color: white;
+        justify-content: space-evenly;
+        background-color: rgba(0, 0, 0, 0.9);
+        height: auto;
+        flex-wrap: wrap;
+        border: 2px solid black;
+    }
+
+    .footerBox {
+        width: 90%;
+        height: auto;
+        margin-top: 15px;
+        padding: 18px;
+    }
+
+    .footerBox1 {
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        padding: 2px;
+    }
+
+    ul {
+        padding: 10px;
+        background-color: #00000c;
+        display: block;
+        width: 100%;
+        opacity: 0;
+        height: 0%;
+        position: fixed;
+        transition-duration: 1s;
+        left: 0;
+        text-align: center;
+        top: 0;
+        box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+    }
+
+    li {
+        display: block;
+        list-style-type: none;
+        margin-left: 25px;
+        cursor: pointer;
+        border-bottom: none;
+        padding: 15px;
+        font-size: 70%;
+        transition: 0.4s;
+        border-radius: 8px;
+    }
+
+    li:hover {
+        background-color: orange;
+        border-bottom: 2px solid orange;
+        font-size: 75%;
+    }
+
+    #bars {
+        position: fixed;
+        display: block;
+        right: 5px;
+        top: 5px;
+    }
+
+    #close {
+        font-size: 200%;
+        display: block;
+        color: orange;
+    }
+
+
+    .home {
+        border-bottom: none;
+    }
+
+    #dis {
+        display: none;
+    }
+}

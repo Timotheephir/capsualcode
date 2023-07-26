@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+
+.container33 {
+  position:absolute;
+  background-color: rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 5px rgba(255,255,255,0.2);
+  top:0px;
+  transform: translate(-50%,20%);
+  padding: 15px;
+  border-radius: 5px;
+  height: 0;
+  opacity: 0;
+  transition:2s;
+  left: 50%;
+  width: 70%; 
+}
+ .formBox{
+  margin-right: 20px;
+  width: 40%;
+  float: left;
+ }
+ #right{
+  float: right;
+ }
+.container33 h3 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.container33 a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.text {
+  margin-top: 15px;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 100%;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 300px;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: lightblue;
+}
+
+.form-control label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: lightblue;
+  transform: translateY(-30px);
+}
